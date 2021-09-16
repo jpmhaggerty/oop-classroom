@@ -8,6 +8,7 @@ class Computer {
     this.on = false;
   }
 
+  power() {this.on = !this.on}
 }
 
 module.exports = Computer
