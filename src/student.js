@@ -10,7 +10,10 @@ class Student {
     return this;
   }
 
-  doHomework() {}
+  doHomework(studentObj) {
+    if (studentObj.skillLevel < this.skillLevel) {studentObj.completed = true} else {studentObj.completed = false};
+
+  }
 }
 
 module.exports = Student
