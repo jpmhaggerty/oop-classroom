@@ -1,9 +1,9 @@
 class Desk {
-  constructor(length, width, height, isWhiteBoard) {
+  constructor(length, width, height, isWhiteboard) {
     this.length = length;
     this.width = width;
     this. height = height;
-    this.isWhiteboard = isWhiteBoard;
+    this.isWhiteboard = isWhiteboard;
     this.content = '';
   }
 
@@ -12,7 +12,7 @@ class Desk {
   }
 
   wipe () {
-    if(isWhiteBoard) {this.content = ''}
+    if(this.isWhiteboard) {this.content = ''};
   }
 }
 

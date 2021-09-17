@@ -1,7 +1,7 @@
 const expect = require('chai').expect
 const Computer = require('../src').Computer
 
-describe('Computer', function () {
+xdescribe('Computer', function () {
   before(function () {
     this.properties = [
       'MacBook Air',
